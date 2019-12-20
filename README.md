@@ -3,7 +3,9 @@ python script to send FW update on camera via network (wire / wireless).
 Before using the script, be sure you have a firmware in GPDEV mode (https://wiki-dev.gopro.com/pages/viewpage.action?pageId=100865107)
 
 ## prerequisites
-- Camera flashed with GPDEV and linux RNDIS drivers (on banzai_ep, branch vdupre/CCIP-140)
+- Camera flashed with GPDEV and linux RNDIS drivers. Linux binaries can be found: 
+  - on banzai_ep, branch vdupre/CCIP-140
+  - in this repo: extract binaries from camera_linux_rndis/linux_gpdev_rndis_binaries.tar.xz and copy all the files in `BANZAI_EP/build/eaglepeak/board/chopes_edb1/make_DATA`
 - "webserver" like NGINX installed on host (windows) machine and running
 - python installed on host machine
 
