@@ -20,7 +20,7 @@ Before using the script, be sure you have a firmware in GPDEV mode (https://wiki
   - `--host` + IP address of the host (`192.168.0.X`) with `X` the number you gave when configuring the network
   - `--target` + IP address of the target (camera). Should be `192.168.0.202`
   - `--shared_folder` + absolute path to the web-server directory. If you installed NGINX, it should be the directory `html` where you installed NGINX
-  - `--cmd` + a command you want to execute before flashing the camera. If no command, the script will used the default one. If you ommit `--cmd`, nothing will be done before flashing the camera!
+  - `--cmd` + a command you want to execute before flashing the camera. If no command, the script will used the default one. If you omit `--cmd`, nothing will be done before flashing the camera!
  - All arguments are optionals as they have a default value. You can change these default values in the script directly and `--help` option will give you these default values.
  
  ## Testing the configuration / environment
